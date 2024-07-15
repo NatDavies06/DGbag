@@ -1,0 +1,27 @@
+{
+  "name": "inthebag",
+  "version": "1.0.0",
+  "description": "a vertual disc golf bag.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start && cd client",
+    "dev": "npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "https://github.com/NatDavies06",
+  "license": "MIT",
+  "dependencies": {
+      "express": "^4.19.2",
+      "mongodb": "^6.8.0",
+      "mongoose": "^5.12.0",
+      "dotenv": "^8.2.0",
+      "body-parser": "^1.19.0",
+      "config": "3.3.12"
+    },
+    "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
